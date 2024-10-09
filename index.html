@@ -4,8 +4,9 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <!-- favicon -->
-    <link rel="favicon" href="./img/favicon.ico" type="image/x-icon" />
-    <title>Plant Care</title>
+    <link rel="favicon" href="./img/favicon.png" type="image/x-icon" />
+    <link rel="shortcut icon" href="./img/favicon.ico" type="image/x-icon" />
+    <title>Roots & Rays</title>
 
     <!-- Remix Icons: https://remixicon.com -->
 
@@ -29,7 +30,9 @@
     <!-- header -->
     <header id="navbar" class="bg-green-950 fixed w-full top-0 left-0 z-50">
       <nav class="container flex items-center justify-between h-16 sm:h-20">
-        <div class="font-lobster sm:text-2xl">IndorePlants.</div>
+        <div class="font-lobster sm:text-2xl">
+          Roots <span class="text-yellow-500">&</span> Rays.
+        </div>
 
         <div
           id="nav-menu"
@@ -69,7 +72,7 @@
 
           <div class="flex flex-col item-center gap-5 lg:flex-row">
             <!-- contant-->
-            <div class="w-full space-y-5 lg:w-1/2">
+            <div class="home__data w-full space-y-5 lg:w-1/2">
               <h1>
                 <span class="text-yellow-500">Plants</span> make a <br />
                 positive <span class="text-yellow-500">impact</span> on <br />
@@ -77,9 +80,11 @@
               </h1>
 
               <p class="text-slate-300 font-lobster">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut
-                nesciunt doloribus consectetur, id saepe nostrum illum vitae,
-                quisquam eaque aperiam voluptate.
+                By improving air quality, reducing noise, and providing natural
+                cooling, plants create healthier, more sustainable living
+                spaces. Incorporating greenery into your environment can lower
+                stress and boost overall well-being, making it a simple yet
+                powerful way to foster a more positive and balanced lifestyle.
               </p>
 
               <div
@@ -99,23 +104,51 @@
                 your first order!
               </p>
               <div class="fex items-center gap-5 text-lg lg:pt-10">
-                <i
-                  class="ri-facebook-fill text-slate-300 hover:text-yellow-500 duration-500 cursor-pointer"
-                ></i>
-                <i
-                  class="ri-twitter-x-line text-slate-300 hover:text-yellow-500 duration-500 cursor-pointer"
-                ></i>
-                <i
-                  class="ri-instagram-line text-slate-300 hover:text-yellow-500 duration-500 cursor-pointer"
-                ></i>
-                <i
-                  class="ri-linkedin-fill text-slate-300 hover:text-yellow-500 duration-500 cursor-pointer"
-                ></i>
+                <a
+                  href="https://www.facebook.com/profile.php?id=100006115696489"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  aria-label="Follow me on facebook"
+                >
+                  <i
+                    class="ri-facebook-fill text-slate-300 hover:text-yellow-500 duration-500 cursor-pointer"
+                  ></i>
+                </a>
+                <a
+                  href="https://x.com/yash_jn09"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  aria-label="Follow me on X"
+                >
+                  <i
+                    class="ri-twitter-x-line text-slate-300 hover:text-yellow-500 duration-500 cursor-pointer"
+                  ></i>
+                </a>
+                <a
+                  href="https://www.instagram.com/mr.yash.jn/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  aria-label="Follow me on instagram"
+                >
+                  <i
+                    class="ri-instagram-line text-slate-300 hover:text-yellow-500 duration-500 cursor-pointer"
+                  ></i>
+                </a>
+                <a
+                  href="https://www.linkedin.com/in/yashjaindev/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  aria-label="Follow me on linkedin"
+                >
+                  <i
+                    class="ri-linkedin-fill text-slate-300 hover:text-yellow-500 duration-500 cursor-pointer"
+                  ></i>
+                </a>
               </div>
             </div>
             <!-- image -->
             <div class="w-full relative lg:w-1/2">
-              <img src="./img/home.png" alt="home_image" />
+              <img src="./img/home.png" alt="home_image" class="home__img" />
               <!-- leaf  -->
               <div
                 class="absolute -top-10 right-0 opacity-30 animate-movingY xl:top-5"
@@ -146,7 +179,7 @@
         >
           <!-- card 1 -->
           <div
-            class="border border-green-900 p-5 cursor-pointer rounded-md hover:shadow-2xl hover:-translate-y-1 duration-300 space-y-5"
+            class="service__card border border-green-900 p-5 cursor-pointer rounded-md hover:shadow-2xl hover:-translate-y-1 duration-300 space-y-5"
           >
             <div class="fix items-center gap-5">
               <i class="ri-truck-line text-3xlmd:text-4xl lg:text-5xl"></i>
@@ -156,13 +189,14 @@
               </p>
             </div>
             <p class="font-lobster">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              Enjoy fast and free shipping on all orders, ensuring your products
+              arrive quickly without extra cost.
             </p>
           </div>
 
           <!-- card 2 -->
           <div
-            class="border border-green-900 p-5 cursor-pointer rounded-md hover:shadow-2xl hover:-translate-y-1 duration-300 space-y-5"
+            class="service__card border border-green-900 p-5 cursor-pointer rounded-md hover:shadow-2xl hover:-translate-y-1 duration-300 space-y-5"
           >
             <div class="fix items-center gap-5">
               <i
@@ -174,13 +208,14 @@
               </p>
             </div>
             <p class="font-lobster">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              Shop with confidence using our encrypted and secure payment
+              gateways, protecting your financial information.
             </p>
           </div>
 
           <!-- card 3 -->
           <div
-            class="border border-green-900 p-5 cursor-pointer rounded-md hover:shadow-2xl hover:-translate-y-1 duration-300 space-y-5"
+            class="service__card border border-green-900 p-5 cursor-pointer rounded-md hover:shadow-2xl hover:-translate-y-1 duration-300 space-y-5"
           >
             <div class="fix items-center gap-5">
               <i class="ri-24-hours-line text-3xlmd:text-4xl lg:text-5xl"></i>
@@ -190,13 +225,14 @@
               </p>
             </div>
             <p class="font-lobster">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              Our dedicated support team is available around the clock to assist
+              you with any inquiries or issues.
             </p>
           </div>
 
           <!-- card 4 -->
           <div
-            class="border border-green-900 p-5 cursor-pointer rounded-md hover:shadow-2xl hover:-translate-y-1 duration-300 space-y-5"
+            class="service__card border border-green-900 p-5 cursor-pointer rounded-md hover:shadow-2xl hover:-translate-y-1 duration-300 space-y-5"
           >
             <div class="fix items-center gap-5">
               <i
@@ -208,7 +244,8 @@
               </p>
             </div>
             <p class="font-lobster">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              We offer competitive pricing without compromising on quality,
+              giving you the best value for your money.
             </p>
           </div>
         </div>
@@ -216,7 +253,7 @@
 
       <!-- about us -->
       <section id="about" class="relative overflow-hidden">
-        <div class="absolute -top-8 -right-12 opacity-50">
+        <div class="about__img_leaf absolute -top-8 -right-12 opacity-50">
           <img
             src="./img/leaf-3.png"
             alt="big_leaf"
@@ -224,7 +261,7 @@
           />
         </div>
         <div
-          class="flex flex-col items-center gap-3 text-center mb-10 md:mb-20"
+          class="about__top flex flex-col items-center gap-3 text-center mb-10 md:mb-20"
         >
           <h2 class="title">About Us</h2>
           <p class="max-w-2xl">Follow instruction for more information.</p>
@@ -237,27 +274,23 @@
               <img
                 src="./img/plant-1.png"
                 alt="about_image"
-                class="w-full sm:w-2/3 lg:w-full xl:w-2/3 max-auto"
+                class="about__image_1 w-full sm:w-2/3 lg:w-full xl:w-2/3 max-auto"
               />
             </div>
             <!-- content -->
-            <div class="w-full lg:w-1/2">
+            <div class="about__content_1 w-full lg:w-1/2">
               <div class="space-y-5">
                 <h3>
                   Make your <span class="text-yellow-500">organic</span> <br />
                   garden
                 </h3>
                 <p class="text-slate-300 font-lobster">
-                  Lorem Ipsum is simply dummy text of the printing and
-                  typesetting industry. Lorem Ipsum has been the industry's
-                  standard dummy text ever since the 1500s, when an unknown
-                  printer took a galley of type and scrambled it to make a type
-                  specimen book. It has survived not only five centuries, but
-                  also the leap into electronic typesetting, remaining
-                  essentially unchanged. It was popularised in the 1960s with
-                  the release of Letraset sheets containing Lorem Ipsum
-                  passages, and more recently with desktop publishing software
-                  like Aldus PageMaker including versions of Lorem Ipsum.
+                  Create a green haven in your home with organic gardening.
+                  Whether you’re a seasoned gardener or just starting out, we
+                  provide all the tips and tools to help you cultivate thriving
+                  plants naturally. Experience the joy of nurturing your own
+                  sustainable garden and enjoy fresh, chemical-free produce
+                  year-round.
                 </p>
               </div>
             </div>
@@ -270,11 +303,11 @@
               <img
                 src="./img/plant-2.png"
                 alt="about_image"
-                class="w-full sm:w-2/3 lg:w-full xl:w-2/3 max-auto"
+                class="about__image_2 w-full sm:w-2/3 lg:w-full xl:w-2/3 max-auto"
               />
             </div>
             <!-- content -->
-            <div class="w-full lg:w-1/2">
+            <div class="about__content_2 w-full lg:w-1/2">
               <div class="space-y-5">
                 <h3>
                   Come with us <br />
@@ -282,16 +315,11 @@
                   your plants
                 </h3>
                 <p class="text-slate-300 font-lobster">
-                  Lorem Ipsum is simply dummy text of the printing and
-                  typesetting industry. Lorem Ipsum has been the industry's
-                  standard dummy text ever since the 1500s, when an unknown
-                  printer took a galley of type and scrambled it to make a type
-                  specimen book. It has survived not only five centuries, but
-                  also the leap into electronic typesetting, remaining
-                  essentially unchanged. It was popularised in the 1960s with
-                  the release of Letraset sheets containing Lorem Ipsum
-                  passages, and more recently with desktop publishing software
-                  like Aldus PageMaker including versions of Lorem Ipsum.
+                  Join our community of plant enthusiasts and discover how easy
+                  it is to grow healthy, beautiful plants. We offer expert
+                  advice, step-by-step tutorials, and premium-quality supplies
+                  that make gardening a rewarding experience. Together, let’s
+                  transform your space into a lush, vibrant garden.
                 </p>
               </div>
             </div>
@@ -301,9 +329,14 @@
 
       <!-- Popular -->
       <section id="popular" class="bg-green-900">
-        <div class="flex flex-col items-center gap-3 text-center mb-[12rem]">
+        <div
+          class="popular__top flex flex-col items-center gap-3 text-center mb-[12rem]"
+        >
           <h2 class="title">Your Populer Plants</h2>
-          <p class="max-w-2xl">Follow instruction for more information.</p>
+          <p class="max-w-2xl">
+            Explore our top picks and discover the perfect plants to enhance
+            your space!
+          </p>
         </div>
         <div
           class="container w-full grid grid-cols-1 gap-x-8 gap-y-36 md: grid-cols-2 lg:grid-cols-3 xl:grid-cols-4"
@@ -416,27 +449,30 @@
 
       <!-- Review -->
       <section id="review" class="relative mb-20 md:mb-28 overflow-hidden">
-        <div class="absolute -top-8 -left-12 opacity-50">
+        <div class="img__leaf_2 absolute -top-8 -left-12 opacity-50">
           <img src="./img/leaf-4.png" alt="leaf" class="w-40 md;w-52 xl:w-64" />
         </div>
         <!-- Swiper -->
         <div
-          class="flex flex-col items-center gap-3 text-center mb-10 md:mb-20"
+          class="reviev__top flex flex-col items-center gap-3 text-center mb-10 md:mb-20"
         >
           <h2 class="title">Customer Review</h2>
-          <p class="max-w-2xl">Follow instruction for more information.</p>
+          <p class="max-w-2xl">
+            See what our happy customers are saying about their gardening
+            experiences!
+          </p>
         </div>
 
-        <div class="container">
+        <div class="review__swiper container">
           <div class="swiper py-12">
             <ul class="swiper-wrapper">
               <li class="swiper-slide">
                 <div class="flex flex-col gap-5 bg-green-900 rounded-md p-6">
                   <p class="font-lobster">
-                    Lorem ipsum dolor, sit amet consectetur adipisicing elit.
-                    Ea, temporibus ducimus deleniti ipsam tenetur beatae unde
-                    nam voluptas molestias sit. Aliquam asperiores reiciendis
-                    odit suscipit corporis aliquid quaerat dolore minima.
+                    I started my first organic garden with their help, and I
+                    couldn’t be happier! The plants are thriving, and I love
+                    that everything is eco-friendly. Their support team is
+                    fantastic and always available to answer my questions.
                   </p>
                   <div class="flex items-center gap-3">
                     <img
@@ -456,10 +492,10 @@
               <li class="swiper-slide">
                 <div class="flex flex-col gap-5 bg-green-900 rounded-md p-6">
                   <p class="font-lobster">
-                    Lorem ipsum dolor, sit amet consectetur adipisicing elit.
-                    Ea, temporibus ducimus deleniti ipsam tenetur beatae unde
-                    nam voluptas molestias sit. Aliquam asperiores reiciendis
-                    odit suscipit corporis aliquid quaerat dolore minima.
+                    The quality of the plants and supplies is unmatched. I’ve
+                    bought plants from other stores, but they never lasted as
+                    long. Here, every plant I’ve purchased has been strong and
+                    healthy, plus the fast shipping is a huge bonus!
                   </p>
                   <div class="flex items-center gap-3">
                     <img
@@ -479,10 +515,10 @@
               <li class="swiper-slide">
                 <div class="flex flex-col gap-5 bg-green-900 rounded-md p-6">
                   <p class="font-lobster">
-                    Lorem ipsum dolor, sit amet consectetur adipisicing elit.
-                    Ea, temporibus ducimus deleniti ipsam tenetur beatae unde
-                    nam voluptas molestias sit. Aliquam asperiores reiciendis
-                    odit suscipit corporis aliquid quaerat dolore minima.
+                    I wasn't sure if I could keep plants alive, but the advice
+                    and guidance I received made the process so easy. Now my
+                    home is filled with greenery, and it's incredibly satisfying
+                    to see everything grow so beautifully.
                   </p>
                   <div class="flex items-center gap-3">
                     <img
@@ -502,10 +538,10 @@
               <li class="swiper-slide">
                 <div class="flex flex-col gap-5 bg-green-900 rounded-md p-6">
                   <p class="font-lobster">
-                    Lorem ipsum dolor, sit amet consectetur adipisicing elit.
-                    Ea, temporibus ducimus deleniti ipsam tenetur beatae unde
-                    nam voluptas molestias sit. Aliquam asperiores reiciendis
-                    odit suscipit corporis aliquid quaerat dolore minima.
+                    Their 24/7 support was a lifesaver when I had a pest issue
+                    in my garden. The team was super knowledgeable and helped me
+                    solve the problem quickly. Highly recommend for anyone
+                    looking to start or improve their garden!
                   </p>
                   <div class="flex items-center gap-3">
                     <img
@@ -554,36 +590,64 @@
           </div>
         </div>
         <!-- footer top social icons -->
-        <div class="container mt-16 mb-10">
+        <div class="footer__social_icon container mt-16 mb-10">
           <div class="border-b border-green-500 relative">
             <div
               class="absolute top-0 transform -translate-y-1/2 left-0 right-0 max-w-36 mx-auto"
             >
               <div class="bg-yellow-100 text-lg text-center space-x-2">
-                <i
-                  class="ri-facebook-fill hover:text-yellow-500 duration-300 cursor-pointer"
-                ></i>
-                <i
-                  class="ri-twitter-x-line hover:text-yellow-500 duration-300 cursor-pointer text-base"
-                ></i>
-                <i
-                  class="ri-instagram-line hover:text-yellow-500 duration-300 cursor-pointer"
-                ></i>
-                <i
-                  class="ri-linkedin-fill hover:text-yellow-500 duration-300 cursor-pointer"
-                ></i>
+                <a
+                  href="https://www.facebook.com/profile.php?id=100006115696489"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  aria-label="Follow me on Facebook"
+                >
+                  <i
+                    class="ri-facebook-fill hover:text-yellow-500 duration-300 cursor-pointer"
+                  ></i>
+                </a>
+                <a
+                  href="https://x.com/yash_jn09"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  aria-label="Follow me on X"
+                >
+                  <i
+                    class="ri-twitter-x-line hover:text-yellow-500 duration-300 cursor-pointer text-base"
+                  ></i>
+                </a>
+                <a
+                  href="https://www.instagram.com/mr.yash.jn/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  aria-label="Follow me on Instagram"
+                >
+                  <i
+                    class="ri-instagram-line hover:text-yellow-500 duration-300 cursor-pointer"
+                  ></i>
+                </a>
+                <a
+                  href="https://www.linkedin.com/in/yashjaindev/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  aria-label="Follow me on linkedin"
+                >
+                  <i
+                    class="ri-linkedin-fill hover:text-yellow-500 duration-300 cursor-pointer"
+                  ></i>
+                </a>
               </div>
             </div>
           </div>
         </div>
         <!-- footer bottom contant -->
         <div
-          class="container grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-8 text-center md:text-start"
+          class="footer__bottom container grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-8 text-center md:text-start"
         >
           <div>
             <div class="text-7xl text-green-700 text-center inline-block">
               <i class="ri-leaf-fill"></i>
-              <p class="font-lobster text-xl sm:text-2xl">GoGreen</p>
+              <p class="font-lobster text-xl sm:text-2xl">Roots & Rays</p>
             </div>
           </div>
           <!-- item 2 -->
@@ -618,19 +682,19 @@
           </div>
         </div>
         <!-- copyright section -->
-        <div class="container">
+        <div class="footer__copyright container">
           <p class="text-center mt-10 opacity-50">
-            Copyright &copy; GoGreen 2024. All Rights Reserved.
+            Copyright &copy; Roots & Rays 2024. All Rights Reserved.
           </p>
         </div>
         <!-- floral Image -->
-        <div class="absolute bottom-0 left-0 opacity-30">
+        <!-- <div class="footer__floral_img absolute bottom-0 left-0 opacity-30 z-10">
           <img
             src="./img/floral-1.png"
             alt="floral image"
-            class="w-full lg:w-1/2"
+            class="w-1/2 lg:w-1/2"
           />
-        </div>
+        </div> -->
         <!-- scroll to top -->
         <a
           href="#"
@@ -642,6 +706,8 @@
     </main>
 
     <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+    <script src="./scrollreveal.min.js"></script>
     <script src="./main.js"></script>
   </body>
 </html>
