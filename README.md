@@ -99,7 +99,7 @@ git push origin feature/newFeature
 
 If you found any `issues` with any code snippet or solutions, or if you have any suggestions for new features, feel free to open an issue or submit a pull request.
 
-🌟 Many many thanks to all the **Stargazers** who have viewed this project 🌟
+🌟 A huge shoutout to all the amazing **Stargazers** who have checked out and supported this project! Your appreciation keeps me growing! 🌟
 
 🌿 Happy Plant Shopping! 🌱
 
