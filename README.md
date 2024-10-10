@@ -16,6 +16,12 @@ Roots & Rays is a 🌍 **plant e-commerce website** designed to make plant shopp
 
 ---
 
+## 🌿 Demo
+
+Check out the live demo of Roots & Rays: [Roots & Rays Demo](https://roots-nd-rays.netlify.app/)
+
+---
+
 ## 🛠️ Tech Stack
 
 - 🎨 **Tailwind CSS**: Utility-first styling for responsive layouts.
