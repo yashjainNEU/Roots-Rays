@@ -1,6 +1,6 @@
 # 🌱 Roots & Rays - Plant E-commerce Website 🌿
 
-![Roots & Rays Banner]([https://link-to-your-image.com/image.png](https://api.pikwy.com/web/670813a83aaa170947449bb8.jpg))
+![Roots & Rays Banner](https://raw.githubusercontent.com/yashjainNEU/Roots-Rays/refs/heads/main/img/Site_image.jpg)
 
 Roots & Rays is a 🌍 **plant e-commerce website** designed to make plant shopping a breeze while promoting a positive environmental impact. 🌿 This website is built with **Tailwind CSS**, ensuring a responsive, modern, and minimalist design. 💻 The site offers several features such as **free shipping**, **secure payments**, and **24/7 support**, all aimed at enhancing the user experience.
 
